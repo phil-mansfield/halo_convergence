@@ -1,7 +1,7 @@
 # Convergence table for vrms_func with 9% tolerance.
 # 0 - Simulation name
 # 1 - Limit type (0: no convergence, 1: directly measured, 2: upper limit)
-# 2 - log10(M_limit) (0 means no convergence)
+# 2 - log10(V_limit) (0 means no convergence)
          nu2gc_H2 2  1.607
          nu2gc_H1 1  1.706
           nu2gc_L 1  1.998

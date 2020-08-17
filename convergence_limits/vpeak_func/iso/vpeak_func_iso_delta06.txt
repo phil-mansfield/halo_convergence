@@ -1,7 +1,7 @@
 # Convergence table for vpeak_func with 6% tolerance.
 # 0 - Simulation name
 # 1 - Limit type (0: no convergence, 1: directly measured, 2: upper limit)
-# 2 - log10(M_limit) (0 means no convergence)
+# 2 - log10(V_limit) (0 means no convergence)
           Bolshoi 2  1.787
          BolshoiP 1  1.956
   Chinchilla_L125 2  1.789
