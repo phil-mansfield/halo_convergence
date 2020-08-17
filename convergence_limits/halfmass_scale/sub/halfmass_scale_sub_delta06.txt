@@ -1,0 +1,23 @@
+# Convergence table for halfmass_scale with 6% tolerance.
+# 0 - Simulation name
+# 1 - Limit type (0: no convergence, 1: directly measured, 2: upper limit)
+# 2 - log10(M_limit) (0 means no convergence)
+          Bolshoi 1 10.062
+         BolshoiP 2  8.915
+  Chinchilla_L125 2  9.730
+  Chinchilla_L250 2  9.730
+  Chinchilla_L400 2  9.730
+           VSMDPL 2  8.915
+            SMDPL 2  8.915
+            MDPL2 2  8.915
+            BMDPL 2  8.915
+            HMDPL 2  8.915
+  Erebos_CBol_L63 2  9.730
+ Erebos_CBol_L125 2  9.730
+ Erebos_CBol_L250 2  9.730
+ Erebos_CBol_L500 2  9.730
+Erebos_CBol_L1000 2  9.730
+Erebos_CBol_L2000 2  9.730
+ Erebos_CPla_L125 2  8.915
+ Erebos_CPla_L250 2  8.915
+ Erebos_CPla_L500 2  8.915

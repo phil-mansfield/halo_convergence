@@ -1,0 +1,29 @@
+# Convergence table for vmax with 1% tolerance.
+# 0 - Simulation name
+# 1 - Limit type (0: no convergence, 1: directly measured, 2: upper limit)
+# 2 - log10(M_limit) (0 means no convergence)
+         nu2gc_H2 0      0
+         nu2gc_H1 0      0
+          nu2gc_L 0      0
+          Bolshoi 1 10.438
+         BolshoiP 1 10.688
+  Chinchilla_L125 1 11.312
+  Chinchilla_L250 1 12.438
+  Chinchilla_L400 1 11.562
+           VSMDPL 1 11.688
+            SMDPL 1 11.312
+            MDPL2 1 11.938
+            BMDPL 1 12.438
+            HMDPL 1 13.062
+  Erebos_CBol_L63 2  9.930
+ Erebos_CBol_L125 1 10.688
+ Erebos_CBol_L250 1 11.688
+ Erebos_CBol_L500 1 12.562
+Erebos_CBol_L1000 1 13.312
+Erebos_CBol_L2000 2  9.930
+ Erebos_CPla_L125 1 10.688
+ Erebos_CPla_L250 1 11.562
+ Erebos_CPla_L500 1 12.438
+    TNG100_1_Dark 2  9.115
+    TNG100_2_Dark 1 10.062
+    TNG100_3_Dark 1 10.688

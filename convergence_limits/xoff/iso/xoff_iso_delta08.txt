@@ -1,0 +1,29 @@
+# Convergence table for xoff with 8% tolerance.
+# 0 - Simulation name
+# 1 - Limit type (0: no convergence, 1: directly measured, 2: upper limit)
+# 2 - log10(M_limit) (0 means no convergence)
+         nu2gc_H2 2 10.415
+         nu2gc_H1 1 11.062
+          nu2gc_L 1 11.812
+          Bolshoi 1 11.562
+         BolshoiP 1 11.562
+  Chinchilla_L125 2 11.230
+  Chinchilla_L250 2 11.230
+  Chinchilla_L400 1 12.062
+           VSMDPL 2 10.415
+            SMDPL 1 11.188
+            MDPL2 1 12.438
+            BMDPL 1 13.562
+            HMDPL 1 14.188
+  Erebos_CBol_L63 2 11.230
+ Erebos_CBol_L125 1 11.438
+ Erebos_CBol_L250 1 12.312
+ Erebos_CBol_L500 1 13.312
+Erebos_CBol_L1000 1 14.188
+Erebos_CBol_L2000 0      0
+ Erebos_CPla_L125 1 11.438
+ Erebos_CPla_L250 1 12.312
+ Erebos_CPla_L500 1 13.188
+    TNG100_1_Dark 2 10.415
+    TNG100_2_Dark 1 10.938
+    TNG100_3_Dark 1 12.062
