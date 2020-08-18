@@ -1,0 +1,55 @@
+# Fit parameters for <X(M_vir)>, phi(M_X), and phi(V_X) for
+# isolated haloes in simulations with Planck-like cosmologies. Because these fits
+# come from a mix of simulations with a combination of slightly different
+# cosmologies, I do not recommend them for precision work: instead, they may
+# be useful for replicating the results of Mansfield & Avestruz (2020), for
+# quick estimates or for work needing more than ~few per cent accuracy.
+#
+# The functional form of these fits and the parameter definitions and scalings
+# are described in Appendix C3 of Mansfield & Avestruz (2020). (Be careful to
+# include mass scalings of M_0 = 10^12.5 Msun/h and velocity scalings of
+# V_0 = 100 km/s)
+#
+# Although ESMDPL was used in the text of the source paper, we do not include it
+# in any fits in this file, as it has not been made publicly available at the time
+# of publication.  There is a large degree of scatter in cvir fits. This point is
+# discussed in Appendix C3 of the source paper.
+#
+# 0 - the variable name
+# 1 - d, the degree of the polynomial fit
+# 2 - log10(N_vir,HR), the initial cut used to define high-resolution regions
+# 3 - log10(M_min), the lower edge of the mass range where the fit is valid. For
+#     velocity function fits, this is replaced with log10(V_min)
+# 4 - log10(M_max), ibid, the upper edge
+# 5 - sigma0, the intrinsic scatter needed beyond sample variance to explain
+#     the dispersion in simulations.
+# 6 to 12 - p_0 to p_6, the polynomial coefficents of the fit. Note that the 
+#           fit to velocity and mass functions is performed against log10(phi).
+          c_to_a 3 2.70  9.562 14.812 0.0085   0.5964125  -0.0762805  -0.0047471   0.0002596   0.0000000   0.0000000   0.0000000 
+      gamma_tdyn 3 2.00  8.438 14.812 0.0928  -1.4598770   0.3311679   0.2797222   0.0432249   0.0000000   0.0000000   0.0000000 
+ halfmass_radius 4 4.00 10.438 14.688 0.0041   0.3540793   0.0651433   0.0068489  -0.0028967  -0.0016610   0.0000000   0.0000000 
+  halfmass_scale 2 2.50  8.938 14.812 0.0060   0.4687075   0.0777583   0.0076925   0.0000000   0.0000000   0.0000000   0.0000000 
+            cvir 4 3.40  9.938 14.812 1.0400  13.1794321  -7.6046554   3.3972645  -1.2416781   0.2176009   0.0000000   0.0000000 
+           m200b 4 2.00  8.438 14.812 0.0030   1.0849750   0.0289233   0.0026558  -0.0009283  -0.0001800   0.0000000   0.0000000 
+           m200c 4 2.00  8.438 14.812 0.0057   0.8707187  -0.0377874  -0.0033402   0.0005212   0.0000631   0.0000000   0.0000000 
+           m500c 4 3.25  9.688 14.812 0.0089   0.6830358  -0.0780580  -0.0054405   0.0012203   0.0003721   0.0000000   0.0000000 
+          m2500c 4 4.00 10.438 14.688 0.0118   0.3771006  -0.0964503  -0.0021270   0.0009710   0.0012103   0.0000000   0.0000000 
+           mpeak 2 2.50  9.312 14.812 0.0414   1.7293360  -0.2834742  -0.0120174   0.0000000   0.0000000   0.0000000   0.0000000 
+scale_of_last_mm 4 3.00  9.438 14.812 0.0072   0.4193433   0.0455313   0.0037095   0.0013117   0.0001627   0.0000000   0.0000000 
+            spin 4 3.00  9.438 14.812 0.0008   0.0356244   0.0013492  -0.0000978  -0.0000258   0.0000063   0.0000000   0.0000000 
+    spin_bullock 4 3.00  9.438 14.812 0.0014   0.0429802   0.0091649   0.0011330  -0.0000399  -0.0000134   0.0000000   0.0000000 
+          t_to_u 4 3.50  9.938 14.812 0.0105   0.7048186   0.0637492   0.0111253   0.0015565  -0.0004422   0.0000000   0.0000000 
+            vrms 4 4.50 10.938 14.312 0.0114   1.3573051  -0.0563292   0.0017587   0.0048367   0.0003115   0.0000000   0.0000000 
+            vmax 4 2.70  9.562 14.812 0.0066   1.2632401  -0.1191274   0.0151304   0.0001398  -0.0002705   0.0000000   0.0000000 
+           vpeak 2 3.25 10.062 14.812 0.0091   1.5256936  -0.1789892   0.0009498   0.0000000   0.0000000   0.0000000   0.0000000 
+            voff 2 4.00 10.438 14.688 0.0087   0.1750441   0.0566322   0.0076723   0.0000000   0.0000000   0.0000000   0.0000000 
+            xoff 2 4.00 10.438 14.688 0.0032   0.0588822   0.0180925   0.0019320   0.0000000   0.0000000   0.0000000   0.0000000 
+       mvir_func 6 2.50  8.938 14.812 0.0170   9.0368027  -1.1049267  -0.0988350  -0.0378480  -0.0126163  -0.0038861  -0.0005584 
+      m200b_func 6 2.50  8.938 14.812 0.0166   9.0689293  -1.0873977  -0.0901396  -0.0341860  -0.0114833  -0.0036444  -0.0005328 
+      m200c_func 6 2.50  8.938 14.688 0.0174   8.9772550  -1.1366709  -0.1139845  -0.0450875  -0.0148835  -0.0042114  -0.0005720 
+      m500c_func 6 2.50  8.938 14.562 0.0194   8.8675180  -1.1966578  -0.1472708  -0.0608417  -0.0184297  -0.0042127  -0.0005016 
+     m2500c_func 6 2.50  8.938 14.188 0.0322   8.5467571  -1.3839072  -0.2470270  -0.1043865  -0.0306565  -0.0059913  -0.0006056 
+      mpeak_func 6 2.50  8.938 14.938 0.0340   9.3425023  -1.0874642  -0.0728140  -0.0340484  -0.0154882  -0.0045538  -0.0006120 
+       vrms_func 6 3.75  1.581  3.248 0.0324   4.5464399  -3.1113039  -0.1728919   0.2075363  -1.3651897   1.2676605  -0.7302277 
+       vmax_func 6 3.50  1.498  3.123 0.0466   4.5916672  -3.2848285  -0.3018513  -0.2001270  -0.9682500   1.3053423  -1.0668209 
+      vpeak_func 6 3.50  1.498  3.206 0.0286   4.9749959  -3.2020387  -0.4587317   0.1953702  -0.1788397  -0.2413506  -0.3841800 
